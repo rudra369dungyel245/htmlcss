@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            table,th,td{
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid black;
+                background-color: white;
+            }
+            table{
+                width: 50%;
+            }
+            td{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table in html</h1>
+    <table>
+        <tr>
+            <th rowspan="2">A</th>
+            <th>B</th>
+            <th rowspan="3">D</th>
+            <th colspan="2">E</th>
+            <th>F</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td rowspan="2">G</td>
+            <td rowspan="2">H</td>
+            <td rowspan="2">I</td>
+        </tr>
+        <tr>
+            <td colspan="2">J</td>
+        </tr>
+        <tr>
+            <td colspan="3">K</td>
+            <td>L</td>
+            <td colspan="2">M</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="5">N</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>P</td>
+        </tr>
+    </table>
+    </body>
+</html>

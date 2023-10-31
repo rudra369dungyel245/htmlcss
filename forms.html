@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <body>
+        <form method="get" target="_blank">
+            <fieldset>
+                <legend>Credentials</legend>
+            <label for="uname">User Name</label><br>
+            <input type="text" id="uname" name="Name"><br>
+            <label for="mail">Email</label><br>
+            <input type="email" id="mail" name="mail_id"> <br>
+            <label for="pwd">Password</label><br>  
+            <input type="password" id="pwd" name="password"><br>
+            </fieldset> 
+            <h4>Radio buttom</h4>
+            <input type="radio" id="CSS" name="topic" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="html" name="topic" value="html">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="js" name="topic" value="js">
+            <label for="js">JS</label><br>
+            <h4>Checkbox</h4>
+            <input type="checkbox" id="ty" name="tutor" value="tyangchen" checked>
+            <label for="ty">Tashi Yangchen</label><br>
+            <input type="checkbox" id="td" name="tutor" value="tdendup">
+            <label for="td">Tsawang Dendup</label><br>
+            <input type="checkbox" id="sbs" name="tutor" value="subba">
+            <label for="sbs">Sancha Bir Subba</label><br>
+            <h4>For File</h4>
+            <label for="<assignment">Upload Assignment</label>
+            <input type="file" id="assignment" name="assignment1"><br>
+            <h4>Drop Down</h4>
+            <label for="dzongkhag">Dzongkhag</label>
+            <select name="dzongkhag" id="dzongkhag">
+                <option value="SJ">S/Jongkhar</option>
+                <option value="TG">T/gang</option>
+                <option value="TY">T/Yangtse</option>
+                <option value="PG">P/Ghatshel</option>
+            </select><br>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="fb-comment" cols="100" rows="1">Type your comment here....</textarea><br>
+
+            <input type="submit" value="Send Details">
+        </form>
+    </body>
+</html>

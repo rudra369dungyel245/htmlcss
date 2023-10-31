@@ -1,0 +1,11 @@
+div p{
+    background-color: black;
+    color: rgb(253, 250, 247);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section>p{
+    color: rebeccapurple
+}
+div.first{
+    color:blue
+}

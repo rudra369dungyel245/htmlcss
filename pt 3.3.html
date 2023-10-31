@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form method="get" target="_blank">
+            <fieldset>
+                <legend>Authentication Details</legend>
+                <label for="uname">User name</label>
+                <input type="text" id="uname" name="Name"><br>
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" name="password">
+            </fieldset>
+            <h4>Choose Gender</h4>
+            <input type="radio" id="fe" name="gender" value="Female">
+            <label for="fe">Female</label>
+            <input type="radio" id="ma" name="gender" value="Male">
+            <label for="ma">Male</label>
+            <input type="radio" id="ot" name="gender" value="Others">
+            <label for="ot">Others</label>
+            <h4>Choose Programming language</h4>
+            <input type="checkbox" id="py" name="lang" value="Python" checked>
+            <label for="py">Python</label>
+            <input type="checkbox" id="pe" name="lang" value="Perl">
+            <label for="pe">Perl</label>
+            <input type="checkbox" id="c" name="lang" value="C++">
+            <label for="c">C++</label><br><br>
+            <label for="pro">Choose a project collaboration tool</label>
+            <select name="pro" id="pro">
+                <option value="hub">Github</option>
+                <option value="lab">Gitlab</option>
+                <option value="buc">Bitbucket</option>
+            </select><br><br>
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume" name=" resume"><br><br>
+            <input type="submit" value="Submit Details">
+        </form>
+    </body>
+</html>

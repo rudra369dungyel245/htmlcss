@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        *{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            background-color: darkcyan;
+            padding: 50px;
+        }
+
+        img{
+            height: auto;
+            width: 23%;
+
+        }
+        #parent{
+            height: 600px;
+            background-color: cadetblue;
+            padding: 0;
+            margin: 0;
+        }
+        .child{
+            padding: 50px;
+        }
+        @media all and (max-width:800px) {
+            img{
+                width: 45%;
+            }
+            h1{
+                background-color: white;
+                color:black ;
+            }
+        }
+        @media all and (max-width:480px){
+            img{
+                width: 100%;
+            }
+            h1{
+                background-color: black;
+                color: white;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Responsive Web Design</h1>
+    <img src="1.png" alt="winter1">
+    <img src="2.jpg" alt="winter2">
+    <img src="3.gif" alt="winter3">
+    <img src="4.jpeg" alt="winter4">
+    <div id="parent">
+        <h2 class="child">Fundamentals of Responsive Web Design</h2>
+        <div class="child">
+            <h3>Viewport Meta Tag</h3>
+        </div>
+        <div class="child">
+            <h3>Media Queries</h3>
+        </div>
+        <div class="child">
+            <h3>Fluid Layouts</h3>
+        </div>
+    </div>
+</body>
+</html>
